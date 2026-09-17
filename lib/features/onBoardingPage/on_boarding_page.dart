@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_music_app/controller/onboarding_controller.dart';
 import 'package:flutter_music_app/res/colors_manager.dart';
 import 'package:flutter_music_app/res/height_and_width_value.dart';
 
@@ -54,7 +55,9 @@ class OnBoardingPage extends StatelessWidget {
               ),
               SizedBox(height: 20),
               GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  OnboardingController.moveToHomePage(context: context);
+                },
                 child: Container(
                   alignment: Alignment.center,
                   height: HeightValue.h60,

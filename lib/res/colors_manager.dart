@@ -5,4 +5,5 @@ class ColorsManager {
   static const Color secondPrimaryColor = Color(0xff261F5C);
   static const Color white = Colors.white;
   static const Color babyBlue = Color(0xff80CFF2);
+  static const Color textFieldColor = Color(0xffB1AFE9);
 }

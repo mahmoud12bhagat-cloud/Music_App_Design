@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: RoutsManagers.routes,
-      initialRoute: RoutesName.onBoardingPage,
+      initialRoute: RoutesName.spalchScreen,
     );
   }
 }

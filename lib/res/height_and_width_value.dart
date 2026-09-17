@@ -3,6 +3,7 @@ class HeightValue {
   static double h50 = 50;
   static double h60 = 60;
   static double h30 = 30;
+  static double h198 = 198;
 }
 
 class WidthValue {
